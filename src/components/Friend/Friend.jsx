@@ -2,17 +2,14 @@ import { useContext } from "react";
 import { AssertContext } from "../Grandpa/Grandpa";
 
 
-const Special = ({asset}) => {
-
-    const gift = useContext(AssertContext) ;
-
+const Friend = () => {
+    const gift = useContext(AssertContext)
     return (
         <div>
-            <h2>Special</h2>
-            <p>has: {asset}</p>
+            <h2>Friend</h2>
             <p>has: {gift}</p>
         </div>
     );
 };
 
-export default Special;
+export default Friend;
