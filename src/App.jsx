@@ -1,6 +1,7 @@
 
 import './App.css'
-import SimpleFrom from './components/SimpleFrom/SimpleFrom'
+import StateFulFrom from './components/StateFulFrom/StateFulFrom'
+// import SimpleFrom from './components/SimpleFrom/SimpleFrom'
 
 function App() {
 
@@ -8,7 +9,8 @@ function App() {
     <>
 
       <h2>From Master</h2>
-      <SimpleFrom></SimpleFrom>
+      {/* <SimpleFrom></SimpleFrom> */}
+      <StateFulFrom></StateFulFrom>
       
     </>
   )
